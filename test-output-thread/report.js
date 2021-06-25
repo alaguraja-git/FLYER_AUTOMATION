@@ -1,58 +1,25 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "7f0fb1dd-92e3-4494-8ad8-5c53a4609b10",
-    "feature": "Login page feature",
-    "scenario": "Forgot Password link",
-    "start": 1624122147806,
+    "id": "5396b172-02dd-4546-8cc3-637a0d2b0200",
+    "feature": "District Admin User Page feature",
+    "scenario": "District Admin User Page",
+    "start": 1624548710813,
     "group": 1,
     "content": "",
-    "tags": "",
-    "end": 1624122157416,
+    "tags": "@districtadmin,",
+    "end": 1624548808443,
     "className": "passed"
   },
   {
-    "id": "d0735155-f991-46b7-965b-c1832313c12e",
-    "feature": "Home Page Feature",
-    "scenario": "Home Page Headers section count",
-    "start": 1624122101717,
+    "id": "c6d6a97a-9b45-4812-8336-f55d280b1d77",
+    "feature": "District Admin User Page feature",
+    "scenario": "School Admin User Page",
+    "start": 1624548808474,
     "group": 1,
     "content": "",
-    "tags": "@home,",
-    "end": 1624122138938,
-    "className": "passed"
-  },
-  {
-    "id": "ba5653d8-cff6-48ec-aa79-8a09b1c97915",
-    "feature": "Home Page Feature",
-    "scenario": "Home page title",
-    "start": 1624122060396,
-    "group": 1,
-    "content": "",
-    "tags": "@home,",
-    "end": 1624122101708,
-    "className": "passed"
-  },
-  {
-    "id": "9b9b17c2-22da-4f92-b16c-6bdb4d78f8c5",
-    "feature": "Login page feature",
-    "scenario": "Login Page title",
-    "start": 1624122138956,
-    "group": 1,
-    "content": "",
-    "tags": "",
-    "end": 1624122147798,
-    "className": "passed"
-  },
-  {
-    "id": "95ce4756-fc70-4f10-a9ba-03653a48ceb3",
-    "feature": "Login page feature",
-    "scenario": "Login with correct credentials",
-    "start": 1624122157423,
-    "group": 1,
-    "content": "",
-    "tags": "",
-    "end": 1624122185033,
+    "tags": "@districtadmin,",
+    "end": 1624548889397,
     "className": "passed"
   }
 ]);

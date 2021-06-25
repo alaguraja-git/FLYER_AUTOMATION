@@ -10,7 +10,8 @@ import org.openqa.selenium.WebElement;
 public class HomePage {
 	
 	private WebDriver driver;
-
+	
+	// 1. By Locators
 	private By homeSections = By.xpath("//section/ul/li/a");
 		
 
