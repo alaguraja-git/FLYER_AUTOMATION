@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Poetic>
+
+<Envelope documentType="SetPoeticEntitlement" dtdRev="2.00" languageCode="En" trader="Poetic" xid="JA-091307-00" />
+
+<Payload>
+
+<SetPoeticEntitlement>
+
+<Entitlement LACGenMethod="LACOnTransaction" emailToInviteToActivate="a.b@ericsson.com" processMode="OFFLINE">
+
+<Item productNum="FAJ121072" quantity="1000" targetTag="" >
+
+<CustomProperty publisherID="ORIGINAL_SO_NO" valueDescription="EnterYourValue" type="ISVProperty" />
+
+<CustomProperty publisherID="PONO" valueDescription="EnterYourValue" type="ISVProperty" />
+
+<CustomProperty publisherID="DELNO" valueDescription="EnterYourValue" type="ISVProperty" />
+
+</Item>
+
+<Item productNum="FAJ121073" quantity="1000" targetTag="">
+
+<CustomProperty publisherID="ORIGINAL_SO_NO" valueDescription="EnterYourValue" type="ISVProperty" />
+
+<CustomProperty publisherID="PONO" valueDescription="EnterYourValue" type="ISVProperty" />
+
+<CustomProperty publisherID="DELNO" valueDescription="EnterYourValue" type="ISVProperty" />
+
+</Item>
+
+<Item productNum="1/FAJ1212008/1" quantity="2000" targetTag="">
+
+<CustomProperty publisherID="ORIGINAL_SO_NO" valueDescription="EnterYourValue" type="ISVProperty" />
+
+<CustomProperty publisherID="PONO" valueDescription="EnterYourValue" type="ISVProperty" />
+
+<CustomProperty publisherID="DELNO" valueDescription="EnterYourValue" type="ISVProperty" />
+
+</Item>
+
+ 
+
+<Partner publisherID="EAB" role="SldCo" />
+
+<Partner publisherID="EAB" role="EndCo" />
+
+</Entitlement>
+
+</SetPoeticEntitlement>
+
+</Payload>
+
+</Poetic>

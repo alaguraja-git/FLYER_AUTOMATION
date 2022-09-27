@@ -2,6 +2,8 @@ package AppHooks;
 
 import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -19,6 +21,7 @@ public class ApplicationHooks {
 	private WebDriver driver;
 	private ConfigReader configReader;
 	Properties prop;
+	private static final Logger LOGGER = LogManager.getLogger(ApplicationHooks.class);
 
 	@Before(order = 0)
 	public void getProperty() {
@@ -28,6 +31,7 @@ public class ApplicationHooks {
 
 	@Before(order = 1)
 	public void launchBrowser() {
+		LOGGER.info("SELECTING BROWSER........");
 		String browserName = prop.getProperty("browser");
 		driverFactory = new DriverFactory();
 		driver = driverFactory.init_driver(browserName);
@@ -35,6 +39,7 @@ public class ApplicationHooks {
 
 	@After(order = 0)
 	public void quitBrowser() {
+		LOGGER.info("QUIT THE BROWSER........");
 		driver.quit();
 	}
 	

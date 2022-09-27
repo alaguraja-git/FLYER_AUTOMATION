@@ -1,26 +1,37 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "5396b172-02dd-4546-8cc3-637a0d2b0200",
-    "feature": "District Admin User Page feature",
-    "scenario": "District Admin User Page",
-    "start": 1624548710813,
+    "id": "469ca302-40cf-4e68-b810-f9af78d30b36",
+    "feature": "Login Page Feature",
+    "scenario": "Login Page",
+    "start": 1663830028097,
     "group": 1,
     "content": "",
-    "tags": "@districtadmin,",
-    "end": 1624548808443,
+    "tags": "@loginpage,",
+    "end": 1663830040429,
     "className": "passed"
   },
   {
-    "id": "c6d6a97a-9b45-4812-8336-f55d280b1d77",
-    "feature": "District Admin User Page feature",
-    "scenario": "School Admin User Page",
-    "start": 1624548808474,
+    "id": "a1f32352-2208-4b62-9c64-0ab22e2a5ffb",
+    "feature": "LACandEntitlement Feature",
+    "scenario": "LACandEntitlement",
+    "start": 1663830051324,
     "group": 1,
     "content": "",
-    "tags": "@districtadmin,",
-    "end": 1624548889397,
+    "tags": "@lacandentitlement,",
+    "end": 1663830134320,
     "className": "passed"
+  },
+  {
+    "id": "029df9b6-e3bc-442d-8a82-434ae54590d4",
+    "feature": "Home Page Feature",
+    "scenario": "Home Page",
+    "start": 1663830040529,
+    "group": 1,
+    "content": "",
+    "tags": "@homepage,",
+    "end": 1663830051286,
+    "className": "failed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([

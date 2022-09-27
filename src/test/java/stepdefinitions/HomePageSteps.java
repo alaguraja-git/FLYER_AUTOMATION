@@ -2,12 +2,18 @@ package stepdefinitions;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 
 import com.pages.HomePage;
 import com.pages.LoginPage;
 import com.qa.factory.DriverFactory;
+import com.qa.util.ConfigReader;
+import com.qa.util.Constants;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
@@ -17,16 +23,20 @@ public class HomePageSteps {
 	
 	private LoginPage loginPage = new LoginPage(DriverFactory.getDriver());
 	private HomePage homePage;
+	private static final Logger LOGGER = LogManager.getLogger(HomePageSteps.class);
 	
+	private ConfigReader configReader = new ConfigReader();
+	Properties prop = configReader.init_prop();
 	
 	@Given("user has already logged in to application")
-	public void user_has_already_logged_in_to_application(DataTable dataTable) {
-		
+	public void user_has_already_logged_in_to_application(DataTable dataTable) {		
 		List<Map<String, String>> credList = dataTable.asMaps();
 		String userName = credList.get(0).get("username");
 		String password = credList.get(0).get("password");
-
-		DriverFactory.getDriver().get("http://www1.flyerschoolapp.com.farshore.net/messages/add");
+		LOGGER.info("Opening URL");
+		String ELIS_URL = prop.getProperty("URL");
+		DriverFactory.getDriver().get(ELIS_URL);
+		DriverFactory.getDriver().manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		homePage = loginPage.doLogin(userName, password);
 	    
 	}
@@ -34,7 +44,8 @@ public class HomePageSteps {
 	@Given("user is on Home page")
 	public void user_is_on_home_page() {		
 		String title = homePage.getHomePageTitle();
-		System.out.println("Home Page title is: " + title);	    
+		System.out.println("Home Page title is: " + title);	
+		LOGGER.info("Home Page title is: " + title);	
 	}
 
 	@Then("user gets home page headers section")
@@ -49,11 +60,6 @@ public class HomePageSteps {
 
 		Assert.assertTrue(expHomePageSectionsList.containsAll(actualHomePageSectionsList));
 	    
-	}
-
-	@Then("home page headers section count should be {int}")
-	public void home_page_headers_section_count_should_be(Integer expectedSectionCount) {
-		Assert.assertTrue(homePage.getHomePageSectionCount() == expectedSectionCount);	
 	}
 
 }
