@@ -7,10 +7,14 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src/test/resources/com/features/3.DistrictAdminUser.feature"},
+		features = {"src/test/resources/com/features/"},
 		glue = {"stepdefinitions","AppHooks"},
 				plugin = {"pretty",				
 						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+						"html:target/cucumber-html-report",
+						"json:target/cucumber.json",
+						"junit:target/cucumber.xml",
+						"io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm",
 						"timeline:test-output-thread/"				
 				},
 		monochrome=true

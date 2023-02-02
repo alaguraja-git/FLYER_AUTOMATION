@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>FLYER_AUTOMATION</groupId>
-	<artifactId>FLYER_AUTOMATION</artifactId>
+	<groupId>MMS_AUTOMATION</groupId>
+	<artifactId>MMS_AUTOMATION</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>FLYER_AUTOMATION</name>
+	<name>MMS_AUTOMATION</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -98,6 +98,73 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>4.1.2</version>
 		</dependency>
+		
+		<dependency>
+		    <groupId>org.apache.logging.log4j</groupId>
+		    <artifactId>log4j-api</artifactId>
+		    <version>2.18.0</version>
+		  </dependency>
+		  <dependency>
+		    <groupId>org.apache.logging.log4j</groupId>
+		    <artifactId>log4j-core</artifactId>
+		    <version>2.18.0</version>
+		 </dependency>
+		 
+		 <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j -->
+			<dependency>
+			    <groupId>org.apache.logging.log4j</groupId>
+			    <artifactId>log4j</artifactId>
+			    <version>2.18.0</version>
+			    <type>pom</type>
+			</dependency>
+	
+			<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber6-jvm -->
+			<dependency>
+			    <groupId>io.qameta.allure</groupId>
+			    <artifactId>allure-cucumber6-jvm</artifactId>
+			    <version>2.14.0</version>
+			</dependency>
+			
+			<dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-configuration2</artifactId>
+                <version>2.4</version>
+            </dependency>
+            
+            <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-java-commons -->
+			<dependency>
+			    <groupId>io.qameta.allure</groupId>
+			    <artifactId>allure-java-commons</artifactId>
+			    <version>2.19.0</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+			<dependency>
+			    <groupId>io.cucumber</groupId>
+			    <artifactId>cucumber-java</artifactId>
+			    <version>6.11.0</version>
+			</dependency>
+			
+			<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+			<dependency>
+			    <groupId>io.cucumber</groupId>
+			    <artifactId>cucumber-core</artifactId>
+			    <version>6.11.0</version>
+			</dependency>
+
+			<dependency>
+			  <groupId>org.projectlombok</groupId>
+			  <artifactId>lombok</artifactId>
+			  <version>1.18.22</version>
+			</dependency>	
+			
+			<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
+			<dependency>
+			    <groupId>org.apache.pdfbox</groupId>
+			    <artifactId>pdfbox</artifactId>
+			    <version>2.0.27</version>
+			</dependency>
+		
 
 	</dependencies>
 	<build>
@@ -125,6 +192,30 @@
 					<useUnlimitedThreads>false</useUnlimitedThreads>
 				</configuration>
 			</plugin>
+			
+			<plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>maven-cucumber-reporting</artifactId>
+                <version>3.15.0</version>
+                <executions>
+                    <execution>
+                        <id>execution</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <projectName>MMS_AUTOMATION</projectName>
+                            <outputDirectory>${project.build.directory}/cucumber-jvm-reports</outputDirectory>
+                            <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
+                            <skippedFails>true</skippedFails>
+                            <enableFlashCharts>true</enableFlashCharts>
+                            <buildNumber>12</buildNumber>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+			
 		</plugins>
 	</build>
 

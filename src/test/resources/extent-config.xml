@@ -17,10 +17,10 @@
 
 		<protocol>http</protocol>
 		<!-- title of the document -->
-		<documentTitle>FLYER AUTOMATION REPORT</documentTitle>
+		<documentTitle>MMS_DWI_VIEWER_AUTOMATION REPORT</documentTitle>
 		<!-- report name - displayed at top-nav -->
 
-		<reportName>FLYER AUTOMATION Report</reportName>
+		<reportName>MMS_DWI_VIEWER_AUTOMATION REPORT</reportName>
 		<!-- location of charts in the test view -->
 
 		<!-- top, bottom -->

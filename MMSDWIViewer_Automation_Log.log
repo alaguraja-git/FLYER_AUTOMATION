@@ -1,0 +1,124 @@
+2022-12-13 07:03:41.798 INFO [main] [AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:34)] - SELECTING BROWSER........
+2022-12-13 07:03:41.812 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:32)] - Browser value is--->chrome
+2022-12-13 07:03:41.813 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:35)] - Chrome browser setup is in progress
+2022-12-13 07:03:46.461 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:38)] - Chrome browser setup completed
+2022-12-13 07:03:46.515 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:53)] - Deleted All the Cookies
+2022-12-13 07:03:46.641 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:55)] - Chrome browser window is maximized
+2022-12-13 07:03:46.675 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.user_is_on_MMS_DWI_Viewer_Page(MMSDWIViewerPageStep.java:30)] - OPENING URL
+2022-12-13 07:03:56.083 INFO [main] [com.pages.MMSDWIViewerPage.getLoginPageTitle(MMSDWIViewerPage.java:74)] - Get the Page Title
+2022-12-13 07:03:56.096 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.user_gets_the_title_of_the_page(MMSDWIViewerPageStep.java:39)] - PAGE TITLE--->:MMS DWI VIEWER
+2022-12-13 07:03:56.108 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_select_site_value_under_drop_down_box(MMSDWIViewerPageStep.java:51)] - Selecting Site Value from drop down box
+2022-12-13 07:03:56.109 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:83)] - SELECTING THE SITE DROP DOWN VALUE
+2022-12-13 07:03:56.202 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:03:56.213 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:91)] - CLICK THE SITE DROP DOWN
+2022-12-13 07:03:56.276 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:96)] - CHECKING THE SITE DROP DOWN VALUE IS PRESENT IN THE DROP DOWN
+2022-12-13 07:03:56.363 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:111)] - YES---> SITE DROP DOWN ELEMANT IS PRESENT. SO CLICKING THE ELEMENT--->ESS_Nanjing
+2022-12-13 07:03:56.431 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_select_product_area_under_drop_down_box(MMSDWIViewerPageStep.java:62)] - Selecting Product Area from drop down box
+2022-12-13 07:03:56.431 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:134)] - SELECTING THE PRODUCT AREA DROP DOWN VALUE
+2022-12-13 07:03:57.451 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:03:57.460 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:140)] - CLICK THE PEODUCT AREA DROP DOWN VALUE
+2022-12-13 07:03:58.529 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:151)] - CHECKING THE PRODUCT AREA DROP DOWN VALUE IS PRESENT IN THE DROP DOWN
+2022-12-13 07:03:58.600 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:161)] - YES---> PEODUCT AREA DROP DOWN ELEMANT IS PRESENT. SO CLICKING THE ELEMENT--->Filter
+2022-12-13 07:03:58.652 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_select_product_family_under_drop_down_box(MMSDWIViewerPageStep.java:71)] - Selecting Product Family from drop down box
+2022-12-13 07:03:58.652 INFO [main] [com.pages.MMSDWIViewerPage.selectProductFamilyDropDown(MMSDWIViewerPage.java:184)] - SELECTING THE PRODUCT FAMILY DROP DOWN VALUE
+2022-12-13 07:03:59.699 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:03:59.707 INFO [main] [com.pages.MMSDWIViewerPage.selectProductFamilyDropDown(MMSDWIViewerPage.java:193)] - CLICK THE PEODUCT FAMILY DROP DOWN VALUE
+2022-12-13 07:04:00.764 INFO [main] [com.pages.MMSDWIViewerPage.selectProductFamilyDropDown(MMSDWIViewerPage.java:199)] - CHECKING THE PRODUCT FAMILY DROP DOWN VALUE IS PRESENT IN THE DROP DOWN
+2022-12-13 07:04:00.929 INFO [main] [com.pages.MMSDWIViewerPage.selectProductFamilyDropDown(MMSDWIViewerPage.java:213)] - YES---> PEODUCT FAMILY DROP DOWN ELEMANT IS PRESENT. SO CLICKING THE ELEMENT--->DTM
+2022-12-13 07:04:00.982 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_select_location_value_under_drop_down_box(MMSDWIViewerPageStep.java:80)] - Selecting Location Value from drop down box
+2022-12-13 07:04:00.983 INFO [main] [com.pages.MMSDWIViewerPage.selectLocationDropDown(MMSDWIViewerPage.java:236)] - SELECTING THE LOCATION DROP DOWN VALUE
+2022-12-13 07:04:02.029 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:04:02.038 INFO [main] [com.pages.MMSDWIViewerPage.selectLocationDropDown(MMSDWIViewerPage.java:245)] - CLICK THE LOCATION DROP DOWN VALUE
+2022-12-13 07:04:03.105 INFO [main] [com.pages.MMSDWIViewerPage.selectLocationDropDown(MMSDWIViewerPage.java:251)] - CHECKING THE LOCATION DROP DOWN VALUE IS PRESENT IN THE DROP DOWN
+2022-12-13 07:04:03.173 INFO [main] [com.pages.MMSDWIViewerPage.selectLocationDropDown(MMSDWIViewerPage.java:266)] - YES---> LOCATION DROP DOWN ELEMANT IS PRESENT. SO CLICKING THE ELEMENT--->EN
+2022-12-13 07:04:03.227 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_click_on_LoadInstruction_Button(MMSDWIViewerPageStep.java:90)] - Click on Load Instruction Button
+2022-12-13 07:04:04.275 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:04:04.284 INFO [main] [com.pages.MMSDWIViewerPage.clickLoadInstructionButton(MMSDWIViewerPage.java:298)] - CLICK ON LOAD INSTRUCTION BUTTON
+2022-12-13 07:04:05.348 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.I_check_the_title_of_the_downloaded_page(MMSDWIViewerPageStep.java:98)] - check the title of the seperate new downloaded page
+2022-12-13 07:04:05.351 INFO [main] [com.pages.MMSDWIViewerPage.checkDownloadedPageTitle(MMSDWIViewerPage.java:323)] - CHECKING DOWNLOAD PAHE TITLE IS PRESENT OR NOT
+2022-12-13 07:04:05.475 INFO [main] [com.pages.MMSDWIViewerPage.checkDownloadedPageTitle(MMSDWIViewerPage.java:344)] - YES --->DOWNLOAD PAHE TITLE IS PRESENT
+2022-12-13 07:04:05.484 INFO [main] [AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:42)] - QUIT THE BROWSER........
+2022-12-13 07:04:06.932 INFO [main] [AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:34)] - SELECTING BROWSER........
+2022-12-13 07:04:06.933 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:32)] - Browser value is--->chrome
+2022-12-13 07:04:06.934 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:35)] - Chrome browser setup is in progress
+2022-12-13 07:04:08.933 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:38)] - Chrome browser setup completed
+2022-12-13 07:04:08.947 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:53)] - Deleted All the Cookies
+2022-12-13 07:04:09.074 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:55)] - Chrome browser window is maximized
+2022-12-13 07:04:09.081 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.user_is_on_MMS_DWI_Viewer_Page(MMSDWIViewerPageStep.java:30)] - OPENING URL
+2022-12-13 07:04:09.911 INFO [main] [com.pages.MMSDWIViewerPage.getLoginPageTitle(MMSDWIViewerPage.java:74)] - Get the Page Title
+2022-12-13 07:04:09.917 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.user_gets_the_title_of_the_page(MMSDWIViewerPageStep.java:39)] - PAGE TITLE--->:MMS DWI VIEWER
+2022-12-13 07:04:09.921 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_select_site_value_under_drop_down_box(MMSDWIViewerPageStep.java:51)] - Selecting Site Value from drop down box
+2022-12-13 07:04:09.921 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:83)] - SELECTING THE SITE DROP DOWN VALUE
+2022-12-13 07:04:09.979 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:04:09.989 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:91)] - CLICK THE SITE DROP DOWN
+2022-12-13 07:04:10.045 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:96)] - CHECKING THE SITE DROP DOWN VALUE IS PRESENT IN THE DROP DOWN
+2022-12-13 07:04:10.127 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:111)] - YES---> SITE DROP DOWN ELEMANT IS PRESENT. SO CLICKING THE ELEMENT--->ESS_Nanjing
+2022-12-13 07:04:10.202 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_select_product_area_under_drop_down_box(MMSDWIViewerPageStep.java:62)] - Selecting Product Area from drop down box
+2022-12-13 07:04:10.202 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:134)] - SELECTING THE PRODUCT AREA DROP DOWN VALUE
+2022-12-13 07:04:11.220 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:04:11.229 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:140)] - CLICK THE PEODUCT AREA DROP DOWN VALUE
+2022-12-13 07:04:12.298 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:151)] - CHECKING THE PRODUCT AREA DROP DOWN VALUE IS PRESENT IN THE DROP DOWN
+2022-12-13 07:04:12.611 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:173)] - NO---> THE PRODUCT AREA DROP DOWN VALUE IS NOT PRESENT UNDER DROP DOWN....PLEASE GIVE PROPER DROP DOWN ELEMENT--->ASDSAW
+2022-12-13 07:04:12.857 INFO [main] [AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:42)] - QUIT THE BROWSER........
+2022-12-13 07:13:58.899 INFO [main] [AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:34)] - SELECTING BROWSER........
+2022-12-13 07:13:58.906 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:32)] - Browser value is--->chrome
+2022-12-13 07:13:58.906 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:35)] - Chrome browser setup is in progress
+2022-12-13 07:14:02.144 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:38)] - Chrome browser setup completed
+2022-12-13 07:14:02.380 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:53)] - Deleted All the Cookies
+2022-12-13 07:14:02.513 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:55)] - Chrome browser window is maximized
+2022-12-13 07:14:02.540 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.user_is_on_MMS_DWI_Viewer_Page(MMSDWIViewerPageStep.java:30)] - OPENING URL
+2022-12-13 07:14:07.553 INFO [main] [com.pages.MMSDWIViewerPage.getLoginPageTitle(MMSDWIViewerPage.java:74)] - Get the Page Title
+2022-12-13 07:14:07.566 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.user_gets_the_title_of_the_page(MMSDWIViewerPageStep.java:39)] - PAGE TITLE--->:MMS DWI VIEWER
+2022-12-13 07:14:07.579 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_select_site_value_under_drop_down_box(MMSDWIViewerPageStep.java:51)] - Selecting Site Value from drop down box
+2022-12-13 07:14:07.583 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:83)] - SELECTING THE SITE DROP DOWN VALUE
+2022-12-13 07:14:07.690 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:14:07.702 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:91)] - CLICK THE SITE DROP DOWN
+2022-12-13 07:14:07.777 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:96)] - CHECKING THE SITE DROP DOWN VALUE IS PRESENT IN THE DROP DOWN
+2022-12-13 07:14:07.871 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:111)] - YES---> SITE DROP DOWN ELEMANT IS PRESENT. SO CLICKING THE ELEMENT--->ESS_Nanjing
+2022-12-13 07:14:07.935 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_select_product_area_under_drop_down_box(MMSDWIViewerPageStep.java:62)] - Selecting Product Area from drop down box
+2022-12-13 07:14:07.936 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:134)] - SELECTING THE PRODUCT AREA DROP DOWN VALUE
+2022-12-13 07:14:08.954 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:14:08.963 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:140)] - CLICK THE PEODUCT AREA DROP DOWN VALUE
+2022-12-13 07:14:10.036 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:151)] - CHECKING THE PRODUCT AREA DROP DOWN VALUE IS PRESENT IN THE DROP DOWN
+2022-12-13 07:14:10.118 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:161)] - YES---> PEODUCT AREA DROP DOWN ELEMANT IS PRESENT. SO CLICKING THE ELEMENT--->Filter
+2022-12-13 07:14:10.202 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_select_product_family_under_drop_down_box(MMSDWIViewerPageStep.java:71)] - Selecting Product Family from drop down box
+2022-12-13 07:14:10.204 INFO [main] [com.pages.MMSDWIViewerPage.selectProductFamilyDropDown(MMSDWIViewerPage.java:184)] - SELECTING THE PRODUCT FAMILY DROP DOWN VALUE
+2022-12-13 07:14:11.265 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:14:11.288 INFO [main] [com.pages.MMSDWIViewerPage.selectProductFamilyDropDown(MMSDWIViewerPage.java:193)] - CLICK THE PEODUCT FAMILY DROP DOWN VALUE
+2022-12-13 07:14:12.342 INFO [main] [com.pages.MMSDWIViewerPage.selectProductFamilyDropDown(MMSDWIViewerPage.java:199)] - CHECKING THE PRODUCT FAMILY DROP DOWN VALUE IS PRESENT IN THE DROP DOWN
+2022-12-13 07:14:12.537 INFO [main] [com.pages.MMSDWIViewerPage.selectProductFamilyDropDown(MMSDWIViewerPage.java:213)] - YES---> PEODUCT FAMILY DROP DOWN ELEMANT IS PRESENT. SO CLICKING THE ELEMENT--->DTM
+2022-12-13 07:14:12.594 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_select_location_value_under_drop_down_box(MMSDWIViewerPageStep.java:80)] - Selecting Location Value from drop down box
+2022-12-13 07:14:12.595 INFO [main] [com.pages.MMSDWIViewerPage.selectLocationDropDown(MMSDWIViewerPage.java:236)] - SELECTING THE LOCATION DROP DOWN VALUE
+2022-12-13 07:14:13.647 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:14:13.655 INFO [main] [com.pages.MMSDWIViewerPage.selectLocationDropDown(MMSDWIViewerPage.java:245)] - CLICK THE LOCATION DROP DOWN VALUE
+2022-12-13 07:14:14.725 INFO [main] [com.pages.MMSDWIViewerPage.selectLocationDropDown(MMSDWIViewerPage.java:251)] - CHECKING THE LOCATION DROP DOWN VALUE IS PRESENT IN THE DROP DOWN
+2022-12-13 07:14:14.795 INFO [main] [com.pages.MMSDWIViewerPage.selectLocationDropDown(MMSDWIViewerPage.java:266)] - YES---> LOCATION DROP DOWN ELEMANT IS PRESENT. SO CLICKING THE ELEMENT--->EN
+2022-12-13 07:14:14.841 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_click_on_LoadInstruction_Button(MMSDWIViewerPageStep.java:90)] - Click on Load Instruction Button
+2022-12-13 07:14:15.889 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:14:15.900 INFO [main] [com.pages.MMSDWIViewerPage.clickLoadInstructionButton(MMSDWIViewerPage.java:298)] - CLICK ON LOAD INSTRUCTION BUTTON
+2022-12-13 07:14:16.958 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.I_check_the_title_of_the_downloaded_page(MMSDWIViewerPageStep.java:98)] - check the title of the seperate new downloaded page
+2022-12-13 07:14:16.958 INFO [main] [com.pages.MMSDWIViewerPage.checkDownloadedPageTitle(MMSDWIViewerPage.java:323)] - CHECKING DOWNLOAD PAHE TITLE IS PRESENT OR NOT
+2022-12-13 07:14:17.048 INFO [main] [com.pages.MMSDWIViewerPage.checkDownloadedPageTitle(MMSDWIViewerPage.java:344)] - YES --->DOWNLOAD PAHE TITLE IS PRESENT
+2022-12-13 07:14:17.056 INFO [main] [AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:42)] - QUIT THE BROWSER........
+2022-12-13 07:14:18.029 INFO [main] [AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:34)] - SELECTING BROWSER........
+2022-12-13 07:14:18.030 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:32)] - Browser value is--->chrome
+2022-12-13 07:14:18.031 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:35)] - Chrome browser setup is in progress
+2022-12-13 07:14:20.181 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:38)] - Chrome browser setup completed
+2022-12-13 07:14:20.391 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:53)] - Deleted All the Cookies
+2022-12-13 07:14:20.513 INFO [main] [com.qa.factory.DriverFactory.init_driver(DriverFactory.java:55)] - Chrome browser window is maximized
+2022-12-13 07:14:20.518 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.user_is_on_MMS_DWI_Viewer_Page(MMSDWIViewerPageStep.java:30)] - OPENING URL
+2022-12-13 07:14:21.290 INFO [main] [com.pages.MMSDWIViewerPage.getLoginPageTitle(MMSDWIViewerPage.java:74)] - Get the Page Title
+2022-12-13 07:14:21.309 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.user_gets_the_title_of_the_page(MMSDWIViewerPageStep.java:39)] - PAGE TITLE--->:MMS DWI VIEWER
+2022-12-13 07:14:21.314 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_select_site_value_under_drop_down_box(MMSDWIViewerPageStep.java:51)] - Selecting Site Value from drop down box
+2022-12-13 07:14:21.314 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:83)] - SELECTING THE SITE DROP DOWN VALUE
+2022-12-13 07:14:21.393 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:14:21.406 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:91)] - CLICK THE SITE DROP DOWN
+2022-12-13 07:14:21.470 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:96)] - CHECKING THE SITE DROP DOWN VALUE IS PRESENT IN THE DROP DOWN
+2022-12-13 07:14:21.560 INFO [main] [com.pages.MMSDWIViewerPage.selectSiteDropDown(MMSDWIViewerPage.java:111)] - YES---> SITE DROP DOWN ELEMANT IS PRESENT. SO CLICKING THE ELEMENT--->ESS_Nanjing
+2022-12-13 07:14:21.612 INFO [main] [stepdefinitions.MMSDWIViewerPageStep.i_select_product_area_under_drop_down_box(MMSDWIViewerPageStep.java:62)] - Selecting Product Area from drop down box
+2022-12-13 07:14:21.612 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:134)] - SELECTING THE PRODUCT AREA DROP DOWN VALUE
+2022-12-13 07:14:22.629 INFO [main] [com.qa.util.ElementUtil.highlightElement(ElementUtil.java:44)] - INSIDE HIGHLIGHT ELEMENT
+2022-12-13 07:14:22.638 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:140)] - CLICK THE PEODUCT AREA DROP DOWN VALUE
+2022-12-13 07:14:23.712 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:151)] - CHECKING THE PRODUCT AREA DROP DOWN VALUE IS PRESENT IN THE DROP DOWN
+2022-12-13 07:14:24.019 INFO [main] [com.pages.MMSDWIViewerPage.selectProductAreaDropDown(MMSDWIViewerPage.java:173)] - NO---> THE PRODUCT AREA DROP DOWN VALUE IS NOT PRESENT UNDER DROP DOWN....PLEASE GIVE PROPER DROP DOWN ELEMENT--->ASDSAW
+2022-12-13 07:14:24.244 INFO [main] [AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:42)] - QUIT THE BROWSER........

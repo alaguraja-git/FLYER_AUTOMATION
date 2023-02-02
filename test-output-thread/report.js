@@ -1,26 +1,26 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "5396b172-02dd-4546-8cc3-637a0d2b0200",
-    "feature": "District Admin User Page feature",
-    "scenario": "District Admin User Page",
-    "start": 1624548710813,
+    "id": "7f973571-9e7d-464c-822b-92b452c7436d",
+    "feature": "MMS DWI Viewer Feature",
+    "scenario": "MMS DWI Viewer Scenario",
+    "start": 1670915638125,
     "group": 1,
     "content": "",
-    "tags": "@districtadmin,",
-    "end": 1624548808443,
+    "tags": "@mms_dwi_viewer,",
+    "end": 1670915657901,
     "className": "passed"
   },
   {
-    "id": "c6d6a97a-9b45-4812-8336-f55d280b1d77",
-    "feature": "District Admin User Page feature",
-    "scenario": "School Admin User Page",
-    "start": 1624548808474,
+    "id": "cfe4e351-8ff4-4066-a322-4003598eb8c1",
+    "feature": "MMS DWI Viewer Fail Feature",
+    "scenario": "MMS DWI Viewer Fail Scenario",
+    "start": 1670915658014,
     "group": 1,
     "content": "",
-    "tags": "@districtadmin,",
-    "end": 1624548889397,
-    "className": "passed"
+    "tags": "@mms_dwi_viewer,",
+    "end": 1670915665002,
+    "className": "failed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
